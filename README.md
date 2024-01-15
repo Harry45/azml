@@ -17,28 +17,23 @@
 </details>
 
 ## About The Project
+This is a workspace where we have sample codes and projects, which we have covered to learn the latest techniques in Machine Learning. Some codes are from existing projects in academia, industry and medium (grateful to open source contributions). 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTACT -->
 ## Contact
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Links -->
 [contributors-shield]: https://img.shields.io/github/contributors/Harry45/azml
