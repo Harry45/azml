@@ -19,6 +19,27 @@
 ## About The Project
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+
 <!-- Links -->
 [contributors-shield]: https://img.shields.io/github/contributors/Harry45/azml
 [contributors-url]: https://github.com/Harry45/azml/graphs/contributors
