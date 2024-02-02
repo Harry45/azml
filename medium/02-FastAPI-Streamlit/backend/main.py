@@ -3,23 +3,24 @@ from pydantic import BaseModel
 import os
 from dotenv import load_dotenv
 import requests
-import pandas as pd
+
 load_dotenv()
 
-API_KEY = os.getenv('API_KEY')
+API_KEY = os.getenv("API_KEY")
 
 app = FastAPI()
 
 
-
 def get_price(ticker: str):
-    url = f'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={ticker}&interval=5min&apikey={API_KEY}'
+    url = f"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={ticker}&interval=5min&apikey={API_KEY}"
     request = requests.get(url)
     data = request.json()
-    return data 
+    return data
+
 
 class StockRequest(BaseModel):
     ticker: str
+
 
 @app.post("/get_stock")
 async def get_stock(stock_request: StockRequest):
