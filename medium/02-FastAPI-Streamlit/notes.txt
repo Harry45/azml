@@ -1,5 +1,0 @@
-docker build -t myfastapi .
-docker build -t mystreamlit .
-
-docker run -p 8000:8000 myfastapi
-docker run -p 8501:8501 mystreamlit
