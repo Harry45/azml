@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 
+backend = "http://stockapi:8000/get_stock"
 st.set_page_config(layout="wide")
 
 
@@ -32,7 +33,7 @@ st.title("Stock Price App")
 
 
 if st.button("Get Price"):
-    response = requests.post("http://localhost:8000/get_stock", json={"ticker": ticker})
+    response = requests.post(backend, json={"ticker": ticker})
     if response.status_code == 200:
         stock_data = response.json()
         meta_data = stock_data["Meta Data"]
