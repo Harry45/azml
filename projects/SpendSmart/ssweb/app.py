@@ -66,8 +66,6 @@ submit_ex = form_ex.form_submit_button()
 
 form_delete = st.sidebar.form("form_delete")
 form_delete.write("Do you want to delete an expense?")
-# indices = range(pd.read_csv(f"expenses/{year}/{month}.csv", index_col=[0]).shape[0])
-# idx = form_delete.selectbox("Row Number", indices)
 idx = form_delete.number_input("Row Number", step=1, format="%i")
 submit_delete = form_delete.form_submit_button()
 
