@@ -1,8 +1,5 @@
-,Category,Item,Cost
-0,Groceries,Morrisons,24.6
-1,Bills,Water,50.0
-2,Bills,Internet,48.0
-3,Bills,Electricity,140.0
-4,Transportation,Fuel_1,50.0
-5,Entertainment,Cinema,75.0
-6,Dining Out,Melis,50.0
+,Date,Category,Item,Cost
+0,2024-02-02,Healthcare,Dentist,6.0
+1,2024-02-02,Groceries,Morrisons,10.0
+2,2024-02-12,Groceries,Morrisons,10.0
+3,2024-02-07,Groceries,Sainsbury,25.0
