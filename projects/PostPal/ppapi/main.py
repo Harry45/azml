@@ -1,6 +1,7 @@
 from fastapi import FastAPI
-from db import model
-from db.database import engine, SessionLocal
+import model
+from database import engine, SessionLocal
+import posts
 
 app = FastAPI()
 model.Base.metadata.create_all(bind=engine)
@@ -14,3 +15,6 @@ async def root():
 @app.get("/hello/{name}")
 async def say_hello(name: str):
     return {"message": f"Hello {name}"}
+
+
+app.include_router(posts.router)
