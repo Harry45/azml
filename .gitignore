@@ -9,7 +9,7 @@ projects/GalaxyGenius/flagged/*
 projects/GalaxyGenius/images/*
 projects/GalaxyGenius/models/*
 projects/GalaxyGenius/prompts/*
-projects/GalaxyGenius/data/*
+projects/GalaxyGenius/data/gz_decals_volunteers_5.csv
 
 # C extensions
 *.so
