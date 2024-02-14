@@ -9,3 +9,18 @@ SpendSmart is an application in which a user can store his/her own daily expense
 QueSolve is an application where the user records questions and answers in a database. Tools which we use here are:
 1) `FastAPI`
 2) `PostgreSQL`
+
+## GalaxyGenius
+GalaxyGenius is an application which attempts to tackle 3 problems pertaining to a galaxy image
+1) assign tags to an image,
+2) classify the object according to a tree-like structure and
+3) describe the object using NLP.
+
+## IrisIQ
+IrisIQ is an example of Machine Learning project where `Streamlit` is used as frontend and `FastAPI` as backend, together in a `Docker` container.
+
+## PostPal
+PostPal is an example of an application which records posts in a `PostgreSQL` database. It also uses `Docker` and `FastAPI` as part of the application.
+
+## StockTracker
+StockTracker is an application which gathers live stock data and displays it on `Streamlit`. `FastAPI` and `Docker` are also used in the software development.
