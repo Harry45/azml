@@ -7,7 +7,7 @@ GalaxyGenius is an application which attempts to tackle 3 problems pertaining to
 1) assign tags to an image,
 2) classify the object according to a tree-like structure and
 3) describe the object using NLP.
-4)
+
 ## SpendSmart
 SpendSmart is an application in which a user can store his/her own daily expenses and this allows him/her to track her expenses and hence, the amount available for spending. It also does a breakdown of cost according to different categories, for example, bills, groceries and so forth. It is built using `Streamlit`.
 
