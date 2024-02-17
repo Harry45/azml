@@ -11,6 +11,9 @@ projects/GalaxyGenius/models/*
 projects/GalaxyGenius/prompts/*
 projects/GalaxyGenius/data/gz_decals_volunteers_5.csv
 
+# let us get the diffusion model working first
+projects/DiffusionTimepiece/*
+
 # C extensions
 *.so
 
