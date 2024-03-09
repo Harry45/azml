@@ -14,7 +14,20 @@ Application to classify galaxies and describe them using NLP.
 <img src="paper-images/app-image-1.png" alt="First Image" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
 
 <!-- Second Image -->
-<img src="paper-images/app-image-2.png" alt="Second Image" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
+<img src="paper-images/app-image-3.png" alt="Second Image" style="width: 100%; max-width: 500px; display: block; margin: 0 auto;">
 
 </body>
 </html>
+
+## Docker
+
+```
+docker build -t galaxygenius . -f Dockerfile
+docker run -d -p 8000:8000 galaxygenius
+```
+
+The application should then be available at
+
+```
+http://localhost:8000/gradio/
+```
