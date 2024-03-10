@@ -9,10 +9,6 @@ import gradio as gr
 import numpy as np
 import pandas as pd
 
-# from fastapi.middleware.cors import CORSMiddleware
-# import nest_asyncio
-# import uvicorn
-# from pyngrok import ngrok
 from htmlcodes import HTML_TEXT
 import warnings
 import pandas as pd
@@ -32,13 +28,6 @@ NOBJECTS = DATA_ML.shape[0]
 CUSTOM_PATH = "/gradio"
 
 app = FastAPI()
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=["*"],
-#     allow_credentials=True,
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
 
 
 @app.get("/")
@@ -134,7 +123,3 @@ with gr.Blocks() as demo:
     )
 
 gr.mount_gradio_app(app, demo, path=CUSTOM_PATH)
-# ngrok_tunnel = ngrok.connect(8000)
-# print("Public URL:", ngrok_tunnel.public_url)
-# nest_asyncio.apply()
-# uvicorn.run(app, port=8000)

@@ -35,6 +35,7 @@ http://localhost:8000/gradio/
 and if we want to make it publicly available,
 
 1) create a tunnel on ngrok account
-2) in a screen, we then do `ngrok tunnel --label edge=xxx http://localhost:8000`
+2) launch application on docker (as above)
+3) in a screen, we then do `ngrok tunnel --label edge=xxx http://localhost:8000`
 
 where xxx is obtained from the ngrok profile.
