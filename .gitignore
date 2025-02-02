@@ -11,6 +11,14 @@ projects/GalaxyGenius/models/*
 projects/GalaxyGenius/prompts/*
 projects/GalaxyGenius/data/gz_decals_volunteers_5.csv
 
+# NLPGenius
+projects/NLPGenius/models/*
+
+# vit
+projects/vit/datasets/*
+projects/vit/models/*
+projects/vit/lightning_logs/*
+
 # let us get the diffusion model working first
 projects/DiffusionTimepiece/*
 
